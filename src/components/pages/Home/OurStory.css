@@ -29,31 +29,31 @@
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 915px) {
-.our-story {
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto;
-}
+  .our-story {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
 
-.our-story-chefs {
-  grid-column: 1;
-  flex-direction: row;
-}
+  .our-story-chefs {
+    grid-column: 1;
+    flex-direction: row;
+  }
 
-.our-story-chefs img {
-  max-width: 50%;
-}
+  .our-story-chefs img {
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 715px) {
-.our-story {
-  grid-template-rows: repeat(3, auto);
-}
+  .our-story {
+    grid-template-rows: repeat(3, auto);
+  }
 
-.our-story-chefs {
-  flex-direction: column;
-}
+  .our-story-chefs {
+    flex-direction: column;
+  }
 
-.our-story-chefs img {
-  max-width: 100%;
-}
+  .our-story-chefs img {
+    max-width: 100%;
+  }
 }
